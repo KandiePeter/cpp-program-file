@@ -1,0 +1,18 @@
+// Volume of a sphere
+#include <iostream>
+using namespace std;
+
+int main() {
+    int volume;
+    int radius;
+    
+    cout<<"Enter the radius"<<endl;
+    cin>>radius;
+    
+    volume=4.0/3.0*radius*radius*radius;
+    
+    cout<<"The volume is"<<volume<<endl;
+   
+
+    return 0;
+}
